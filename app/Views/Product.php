@@ -18,7 +18,7 @@
         <tbody>
             <?php foreach ($products as $p): ?>
             <tr>
-                <td><?=$p->id?></td>
+                <td><?=$p->Id?></td>
                 <td><?=$p->nama_product?></td>
                 <td><?=$p->description?></td>
             </tr>
